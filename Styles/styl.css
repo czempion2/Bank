@@ -1,0 +1,67 @@
+body
+{
+  background-image: url("../Obrazki/Tlostrony2.png");
+  text-align: center;
+}
+nav{
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    display: grid;
+    margin-top: 20px;
+    grid-template-areas: 
+    "zero one two three four five six seven"
+    ;
+}
+section{
+    margin-top: 50px;
+    color:rgb(101, 187, 101);
+    height: 300px;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 5px;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    color:rgb(246, 63, 63);
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(91, 51, 193);
+}
+a:hover
+{
+    color:red;
+}
+.wyslij
+{
+    height: 50px;
+    width: 100px;
+    font-size: 30px;
+    margin:15px;
+}
+table,td,tr,th{
+    margin-left:25%;
+padding:5px;
+border:2px solid red;
+border-collapse: collapse;
+}
+
+.fav {
+    height: 25px;
+    width: 25px;
+}
+
+.konsulImg {
+    height: 200px;
+}
+
+.konsulImg2 {
+    height: 250px;
+}

@@ -1,0 +1,53 @@
+body {
+    background-image: url("../Obrazki/bank.avif");
+    
+   }
+   .form {
+    margin: 140px auto;
+    width: 300px;
+    padding: 30px 45px;
+    background: rgb(41, 39, 39);
+    box-shadow: 0px 0px 65px black;
+   }
+   h1.login-title {
+    color: #e61717e9;
+    margin: 0px auto 25px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+   }
+   .login-input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 25px;
+    width: calc(100%
+   - 23px);
+   }
+   .login-input:focus {
+    border-color:#f50c0ce9;
+    outline: none; }
+   .login-button {
+    color: #fff;
+    background: #55a1ff;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer; }
+   .link {
+    color: #e61717e9;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+   }
+   .link a {
+    color: #e61717e9; }
+   h3 {
+    font-weight: normal;
+    text-align: center;
+    background-color: rgb(210, 21, 21);
+   }
